@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    <div className="body">
     <div className="container">
       <div className="left">
         <div className="left1">
@@ -81,6 +82,7 @@ function App() {
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Erick-384</a>.
+    </div>
     </div>
     </>
   )
