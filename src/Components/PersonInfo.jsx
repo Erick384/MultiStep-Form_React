@@ -1,5 +1,4 @@
 import React from 'react'
-import "./PersonInfo.css"
 
 function PersonInfo() {
   return (
@@ -37,7 +36,7 @@ function PersonInfo() {
           </div>
         </div>
         <div className="button">
-          <button><a href="./step2/step2.html">Next Step</a></button>
+          <button><a href="#">Next Step</a></button>
         </div>
       </div>
   )
