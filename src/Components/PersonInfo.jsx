@@ -24,7 +24,7 @@ function PersonInfo() {
                 required
               />
             </div>
-            <div class="inputs">
+            <div className="inputs">
               <label for="number">Phone Number</label>
               <input
                 type="tel"
@@ -35,9 +35,7 @@ function PersonInfo() {
             </div>
           </div>
         </div>
-        <div className="button">
-          <button><a href="#">Next Step</a></button>
-        </div>
+        
       </div>
   )
 }

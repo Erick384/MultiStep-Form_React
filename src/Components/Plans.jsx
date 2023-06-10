@@ -86,12 +86,7 @@ function Plans() {
           </div>
         </div>
       </div>
-      <div className="button">
-        <a href="./index.html">Go Back</a>
-        <button>
-          <a href="./step3/step3.html">Next Step</a>
-        </button>
-      </div>
+      
     </div>
   );
 }

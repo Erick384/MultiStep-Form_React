@@ -1,6 +1,6 @@
 import React from "react";
 
-function footer() {
+function Footer() {
   return (
     <div className="attribution">
       Challenge by
@@ -12,4 +12,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;
