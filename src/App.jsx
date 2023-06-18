@@ -1,13 +1,12 @@
 import { useState } from "react";
-import PersonInfo from "./Components/PersonInfo";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Left from "./Components/Left";
+import PersonInfo from "./Components/Personal-Info/PersonInfo";
+import Plans from "./Components/Plans/Plans";
+import AddsOn from "./Components/Adds-On/AddsOn"
+import Summary from "./Components/Summary/Summary";
 import Footer from "./Components/Footer";
-import Plans from "./Components/Plans";
-import AddsOn from "./Components/AddsOn";
-import Summary from "./Components/Summary";
-// import Btn from "./Components/Btn";
 
 function App() {
   const [nextBtn, setNextBtn] = useState(false);
@@ -20,15 +19,15 @@ function App() {
     <div className="body">
       <div className="container">
         <Left />
+        <div className="container-Right">
         <Routes>
-          <Route path="/" element={<PersonInfo />} />
+          <Route path="/" element={<PersonInfo/>} />
           <Route path="/Plans" element={<Plans />} />
           <Route path="/Adds" element={<AddsOn />} />
           <Route path="/Summary" element={<Summary />} />
         </Routes>
-        {/* <div className="button">
-          <button onClick={handleNextBtn}>Next Step</button>
-        </div> */}
+        </div>
+
       </div>
       <Footer />
     </div>

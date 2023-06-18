@@ -1,16 +1,17 @@
 import React from "react";
-import "./Summary.css"
+import "./Summary.css";
+import BackNext from "../BackNext/BackNext"
 
 function Summary() {
   return (
-    <div className="right">
-      <div className="right-txt">
+    <div className="right-txt">
+      <div>
         <div className="header">
           <h1>Finishing up</h1>
           <br />
           <p>Double-check everything looks OK before confirming.</p>
         </div>
-        <div className="form">
+        <div className="Summary-form">
           <div className="form1">
             <div className="form1-txt">
               <h3>Arcade(Monthly)</h3>
@@ -36,12 +37,7 @@ function Summary() {
           <h3>+$12/mo</h3>
         </div>
       </div>
-      <div className="button">
-        <a href="./step3/step3.html">Go Back</a>
-        <button>
-          <a href="./step5/step5.html">Confirm</a>
-        </button>
-      </div>
+      <BackNext />
     </div>
   );
 }

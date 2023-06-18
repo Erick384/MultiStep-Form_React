@@ -1,0 +1,57 @@
+  .header p {
+    color: hsl(231, 11%, 63%);
+  }
+  .form {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* gap: 1.5rem; */
+  }
+  .inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .input {
+    border: 1px solid hsl(231, 11%, 63%);
+    width: 33.33%;
+    /* height: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: .6rem;
+    border-radius: .5rem;
+  }
+  .svgtxt{
+    display: flex;
+    flex-direction: column;
+  }
+  .switch{
+    display: flex;
+    gap: 1rem;
+    background-color: hsla(229, 24%, 87%,0.2);
+    padding: 1rem;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .button {
+    display: flex;
+    justify-content: space-between;
+  }
+  .button a{
+    text-decoration: none;
+    color: hsl(231, 11%, 63%);
+    font-weight: bolder;
+  }
+  .button button {
+    background-color: hsl(213, 96%, 18%);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+  }
+  .button button a {
+    text-decoration: none;
+    padding: 1rem;
+    color: hsl(0, 0%, 100%);
+  }
