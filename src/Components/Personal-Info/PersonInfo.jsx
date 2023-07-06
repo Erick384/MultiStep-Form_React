@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function PersonInfo() {
   return (
-    <div className="right-txt">
+    <form className="right-txt">
       <div className="Info-txt">
         <div className="header">
           <h1>Personal info</h1>
@@ -38,11 +38,11 @@ function PersonInfo() {
         </div>
       </div>
       <div className="next-Button">
-        <button>
+        <button type="submit">
           <NavLink to="/Plans">Next</NavLink>
         </button>
       </div>
-    </div>
+    </form>
   );
 }
 

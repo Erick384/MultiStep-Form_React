@@ -78,11 +78,23 @@ function Plans() {
         </div>
       </div>
 
-      <div className="switch">
+      <label className="switch">
         <p>Monthly</p>
-        <input type="radio" name="switch" />
+        {/* <input type="checkbox" name="switch" id="switch" /> */}
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            role="switch"
+            id="flexSwitchCheckDefault"
+          />
+          {/* <label class="form-check-label" for="flexSwitchCheckChecked">
+            Checked switch checkbox input
+          </label> */}
+        </div>
+        <span className="slider"></span>
         <p>Yearly</p>
-      </div>
+      </label>
       <div className="AddsOnbutton">
         <NavLink to="/">Go Back</NavLink>
         <button>
