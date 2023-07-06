@@ -1,11 +1,11 @@
 import React from "react";
 import "./PersonalInfo.css";
-import BackNext from "../BackNext/BackNext";
+import { NavLink } from "react-router-dom";
 
 function PersonInfo() {
   return (
     <div className="right-txt">
-      <div Info-txt>
+      <div className="Info-txt">
         <div className="header">
           <h1>Personal info</h1>
           <br />
@@ -37,12 +37,11 @@ function PersonInfo() {
           </div>
         </div>
       </div>
-      <div to="/Plans" className="next-Button">
-      <button>
-        <a>Next</a>
-      </button>
-    </div>
-
+      <div className="next-Button">
+        <button>
+          <NavLink to="/Plans">Next</NavLink>
+        </button>
+      </div>
     </div>
   );
 }

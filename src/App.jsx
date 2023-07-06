@@ -7,6 +7,7 @@ import Plans from "./Components/Plans/Plans";
 import AddsOn from "./Components/Adds-On/AddsOn"
 import Summary from "./Components/Summary/Summary";
 import Footer from "./Components/Footer";
+import Thankyou from "./Components/Summary/Thankyou";
 
 function App() {
   const [nextBtn, setNextBtn] = useState(false);
@@ -25,6 +26,7 @@ function App() {
           <Route path="/Plans" element={<Plans />} />
           <Route path="/Adds" element={<AddsOn />} />
           <Route path="/Summary" element={<Summary />} />
+          <Route path="/Thankyou" element={<Thankyou />} />
         </Routes>
         </div>
 

@@ -42,9 +42,6 @@
   background-size: cover;
   background-position: center;
 }
-/* .steps{
-  border: 1px solid red;
-} */
 a{
   text-decoration: none;
 }
@@ -82,6 +79,9 @@ a.active h3{
   /* font-size: 20px; */
   color: hsl(231, 11%, 63%);
 }
+.content span{
+  color: hsl(231, 11%, 63%);
+}
 .container-Right {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -94,4 +94,24 @@ a.active h3{
   margin-top: 1.8rem;
   height: 100%;
   /* border: 1px solid red; */
+}
+.AddsOnbutton {
+  display: flex;
+  justify-content: space-between;
+}
+.AddsOnbutton a {
+  text-decoration: none;
+  color: hsl(231, 11%, 63%);
+  font-weight: bolder;
+}
+.AddsOnbutton button {
+  background-color: hsl(213, 96%, 18%);
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+.AddsOnbutton button a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  padding: 1rem;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./AddsOn.css";
-import BackNext from "../BackNext/BackNext";
+import { NavLink } from "react-router-dom";
 
 function AddsOn() {
   return (
@@ -56,7 +56,12 @@ function AddsOn() {
           </div>
         </div>
       </div>
-      <BackNext />
+      <div className="AddsOnbutton">
+        <NavLink to="/Plans">Go Back</NavLink>
+        <button>
+          <NavLink to="/Summary">Next</NavLink>
+        </button>
+      </div>
     </div>
   );
 }

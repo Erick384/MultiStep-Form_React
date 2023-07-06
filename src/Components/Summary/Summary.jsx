@@ -1,6 +1,6 @@
 import React from "react";
 import "./Summary.css";
-import BackNext from "../BackNext/BackNext"
+import { NavLink } from "react-router-dom";
 
 function Summary() {
   return (
@@ -37,7 +37,12 @@ function Summary() {
           <h3>+$12/mo</h3>
         </div>
       </div>
-      <BackNext />
+      <div className="AddsOnbutton">
+        <NavLink to="/Adds">Go Back</NavLink>
+        <button>
+          <NavLink to="/Thankyou">Confirm</NavLink>
+        </button>
+      </div>
     </div>
   );
 }
