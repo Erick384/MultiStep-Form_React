@@ -43,3 +43,9 @@
     color: hsl(0, 0%, 100%);
     padding: 1rem;
   }
+  @media screen and (max-width: 600px) {
+    .right-txt{
+      gap: 2rem;
+      /* border: 1px solid red; */
+    }
+  }
