@@ -1,11 +1,13 @@
 import "./App.css";
+import React, { useState } from 'react';
 import { Routes, Route } from "react-router-dom";
 import Left from "./Components/Left";
 import PersonInfo from "./Components/Personal-Info/PersonInfo";
 import Plans from "./Components/Plans/Plans";
 import AddsOn from "./Components/Adds-On/AddsOn";
 import Summary from "./Components/Summary/Summary";
-// import Footer from "./Components/Footer";
+import "./Components/Plans/Plans.css";
+import Footer from "./Components/Footer";
 import Thankyou from "./Components/Summary/Thankyou";
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
           </Routes>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

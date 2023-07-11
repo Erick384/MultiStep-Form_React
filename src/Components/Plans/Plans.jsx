@@ -1,5 +1,4 @@
 import React from "react";
-import "./plans.css";
 import { NavLink } from "react-router-dom";
 
 function Plans() {
